@@ -1,0 +1,7 @@
+{
+  "/v5/*": {
+    "target": "http://138.201.254.240:8086/aiv/",
+    "secure": false,
+    "logLevel": "debug"
+  }
+} 
