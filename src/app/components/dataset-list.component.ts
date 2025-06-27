@@ -702,7 +702,7 @@ export class DatasetListComponent implements OnInit {
   }
 
   getDataForClickedDataset(dataset: Dataset) {
-    const url = 'v5/data/dataset/spreview_new';
+    const url = 'http://138.201.254.240:8086/aiv/v5/data/dataset/spreview_new';
     const body = {"metaFlag":false,"recordLimit":"-1","lazyLoad":false};
 
     this.dataService.getFullDatasetData(url, body, {headers: new HttpHeaders({
